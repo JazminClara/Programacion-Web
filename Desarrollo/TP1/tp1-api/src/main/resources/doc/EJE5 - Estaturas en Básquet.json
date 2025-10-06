@@ -1,0 +1,42 @@
+[
+    {
+        "idJugador": 1,
+        "dni": "32457891",
+        "nombre": "Manuela Ginóbili",
+        "edad": 43,
+        "peso": 76.0,
+        "estatura": 1.82
+    },
+    {
+        "idJugador": 2,
+        "dni": "31893475",
+        "nombre": "Luisa Scola",
+        "edad": 45,
+        "peso": 82.0,
+        "estatura": 1.91
+    },
+    {
+        "idJugador": 3,
+        "dni": "30127584",
+        "nombre": "Andrea Nocioni",
+        "edad": 45,
+        "peso": 78.0,
+        "estatura": 1.85
+    },
+    {
+        "idJugador": 4,
+        "dni": "29768320",
+        "nombre": "Fabricia Oberto",
+        "edad": 50,
+        "peso": 80.0,
+        "estatura": 1.88
+    },
+    {
+        "idJugador": 5,
+        "dni": "33501249",
+        "nombre": "Carla Delfino",
+        "edad": 43,
+        "peso": 74.0,
+        "estatura": 1.80
+    }
+]

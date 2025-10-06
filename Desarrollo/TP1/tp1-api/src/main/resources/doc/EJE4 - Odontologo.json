@@ -1,0 +1,37 @@
+[
+  {
+    "idPaciente": 1,
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "dni": "38345678",
+    "fechaNacimiento": "1993-02-18"
+  },
+  {
+    "idPaciente": 2,
+    "nombre": "María",
+    "apellido": "Gómez",
+    "dni": "46654321",
+    "fechaNacimiento": "2015-10-30"
+  },
+  {
+    "idPaciente": 3,
+    "nombre": "Carlos",
+    "apellido": "López",
+    "dni": "42223344",
+    "fechaNacimiento": "1999-12-10"
+  },
+  {
+    "idPaciente": 4,
+    "nombre": "Ana",
+    "apellido": "Martínez",
+    "dni": "49332211",
+    "fechaNacimiento": "2019-05-15"
+  },
+  {
+    "idPaciente": 5,
+    "nombre": "Luis",
+    "apellido": "Rodríguez",
+    "dni": "44667788",
+    "fechaNacimiento": "2000-09-20"
+  }
+]

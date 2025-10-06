@@ -1,0 +1,1 @@
+Los archivos que solicitó de collection.json los agregué dentro del proyecto en una carpeta /resources/doc. Ahí mismo agregué los objetos en formato JSON.

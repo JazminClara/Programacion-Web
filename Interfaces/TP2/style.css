@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(200, 207, 253);
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria;
+    color: rgb(19, 26, 44);
+}
+
+img {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    border: solid 3px rgb(119, 166, 222);
+}
+
+.botonera {
+    text-align: center;
+}
+
+.botonera a {
+    margin: 0 30px;
+    color: rgb(70, 73, 125);
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.texto-principal p {
+    text-align: justify;
+    margin: 0px 300px;
+    font-family: Arial;
+    color: rgb(70, 73, 125);
+}
+
+.texto-principal h2 {
+    font-family: Cambria;
+    margin-left: 225px;
+    color: rgb(19, 26, 44);
+}
+
+.texto-principal ul, .texto-principal ol {
+    font-family: Cambria;
+    margin-left: 225px;
+    color: rgb(70, 73, 125);
+    margin: 0px 275px;
+}
+
+.texto-principal ul a {
+    color: rgb(70, 73, 125);
+}
+
+.texto-principal ol a {
+    text-decoration: none;
+    color: rgb(70, 73, 125);
+}
+
+.texto-principal p.parrafo-especial {
+    color: rgb(19,26,44);
+}
+
+.texto-principal p.parrafo-preguntas {
+    margin: 0;
+    line-height: 1.5em;
+
+}

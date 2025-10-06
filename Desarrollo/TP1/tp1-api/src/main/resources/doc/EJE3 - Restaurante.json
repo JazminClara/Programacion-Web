@@ -1,0 +1,32 @@
+[
+  {
+    "nroPlato": 1,
+    "nombre": "Milanesa con papas fritas",
+    "precio": 1500.00,
+    "descripcion": "Milanesa de carne vacuna con guarnición de papas fritas"
+  },
+  {
+    "nroPlato": 2,
+    "nombre": "Hamburguesa con papas fritas",
+    "precio": 1200.00,
+    "descripcion": "Hamburguesa casera con guarnición de papas fritas"
+  },
+  {
+    "nroPlato": 3,
+    "nombre": "Pizza muzzarella",
+    "precio": 1000.00,
+    "descripcion": "Pizza de muzzarella con salsa de tomate y orégano"
+  },
+  {
+    "nroPlato": 4,
+    "nombre": "Ensalada César",
+    "precio": 900.00,
+    "descripcion": "Ensalada con lechuga, pollo, crutones y aderezo César"
+  },
+  {
+    "nroPlato": 5,
+    "nombre": "Spaghetti bolognesa",
+    "precio": 1300.00,
+    "descripcion": "Spaghetti con salsa bolognesa y queso parmesano"
+  }
+]

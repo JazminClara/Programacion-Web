@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "c24f010e-02da-4b2a-8339-19fb28dad118",
+		"name": "Desarrollo - TP1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48341811",
+		"_collection_link": "https://jazminclara-165652.postman.co/workspace/2672994b-c31b-42fe-825c-e02ba6df1500/collection/48341811-c24f010e-02da-4b2a-8339-19fb28dad118?action=share&source=collection_link&creator=48341811"
+	},
+	"item": [
+		{
+			"name": "EJE1: Conversión de Unidades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ejercicio1/?galones=4.600",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ejercicio1",
+						""
+					],
+					"query": [
+						{
+							"key": "galones",
+							"value": "4.600"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EJE2: Promedio de Notas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ejercicio2/?nota1=8&nota2=8.9&nota3=6.96",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ejercicio2",
+						""
+					],
+					"query": [
+						{
+							"key": "nota1",
+							"value": "8"
+						},
+						{
+							"key": "nota2",
+							"value": "8.9"
+						},
+						{
+							"key": "nota3",
+							"value": "6.96"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EJE3: Restaurante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ejercicio3/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ejercicio3",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EJE3: Restaurante (Null)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ejercicio3/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ejercicio3",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EJE4: Odontólogo (pacientes)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ejercicio4/pacientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ejercicio4",
+						"pacientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EJE4: Odontólogo (pacientes menores)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ejercicio4/pacientes-menores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ejercicio4",
+						"pacientes-menores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EJE 5: Estaturas en Básquet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"idJugador\": 1,\r\n    \"dni\": \"32457891\",\r\n    \"nombre\": \"Manuela Ginóbili\",\r\n    \"edad\": 43,\r\n    \"peso\": 76.0,\r\n    \"estatura\": 1.82\r\n  },\r\n  {\r\n    \"idJugador\": 2,\r\n    \"dni\": \"31893475\",\r\n    \"nombre\": \"Luisa Scola\",\r\n    \"edad\": 45,\r\n    \"peso\": 82.0,\r\n    \"estatura\": 1.91\r\n  },\r\n  {\r\n    \"idJugador\": 3,\r\n    \"dni\": \"30127584\",\r\n    \"nombre\": \"Andrea Nocioni\",\r\n    \"edad\": 45,\r\n    \"peso\": 78.0,\r\n    \"estatura\": 1.85\r\n  },\r\n  {\r\n    \"idJugador\": 4,\r\n    \"dni\": \"29768320\",\r\n    \"nombre\": \"Fabricia Oberto\",\r\n    \"edad\": 50,\r\n    \"peso\": 80.0,\r\n    \"estatura\": 1.88\r\n  },\r\n  {\r\n    \"idJugador\": 5,\r\n    \"dni\": \"33501249\",\r\n    \"nombre\": \"Carla Delfino\",\r\n    \"edad\": 43,\r\n    \"peso\": 74.0,\r\n    \"estatura\": 1.80\r\n  }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ejercicio5/jugadores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ejercicio5",
+						"jugadores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
