@@ -1,0 +1,93 @@
+header {
+    background-color: rgb(51, 51, 51);
+    font-family: 'Noto Sans';
+    color: rgb(254, 0, 102);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+nav {
+    background-color: rgb(254, 0, 102);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    color: rgb(23, 50, 45);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: arial;
+
+}
+
+.section-lista {
+    background-color: rgb(255, 152, 153);
+    width: 25%;
+    float: left;
+    height: 550px;
+    box-sizing: border-box;
+    font-family: Verdana;
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    line-height: 2em;
+}
+
+.section-empresa {
+    background-color: rgb(204, 204, 204);
+    width: 50%;
+    float: left;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 0 25px;
+    font-family: Verdana;
+    color: rgb(51, 51, 51);
+    border: 2px dashed rgb(51, 51, 51);
+}
+
+.section-empresa h2 {
+    color: rgb(254, 0, 102);
+    font-family: Verdana;
+    font-size: 2em;
+    text-align: center;
+}
+
+.section-noticias {
+    background-color: rgb(153, 153, 153);
+    width: 25%;
+    float: left;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 0 25px;
+    font-family: Verdana;
+    color: rgb(51, 51, 51);
+}
+
+.section-noticias .h3-noticias-destacadas {
+    color: rgb(255, 152, 153);
+}
+
+.section-noticias h3 {
+    color: rgb(100, 101, 103);
+}
+
+footer {
+    background-color: rgb(122, 122, 122);
+    color: rgb(51, 51, 51);
+    font-family: Verdana;
+    clear: both;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+}

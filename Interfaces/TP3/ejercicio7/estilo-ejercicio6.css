@@ -1,0 +1,21 @@
+.parrafo {
+    width: 450px;
+    margin: 10px 45px;
+    position: absolute;
+    opacity: 0.6;
+    text-align: justify;
+    background: orange;
+}
+
+.parrafo p {
+    color: rgb(62, 61, 61);
+    margin: 15px;
+}
+
+.imagen {
+    position: absolute;
+}
+
+.imagen img {
+    height: 360px;
+}

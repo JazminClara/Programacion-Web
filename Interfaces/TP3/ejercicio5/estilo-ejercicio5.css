@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+    border: 2px dotted rgb(41, 49, 47);
+    width: 120px;
+    padding: 10px 0;
+    margin: 5px;
+    text-align: center;
+    font-family: Arial;
+    background-color: rgb(255, 0, 102);
+    color: rgb(41, 49, 47);
+    transition: background-color 0.75s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botones:hover {
+    background-color: rgb(255, 102, 102);
+}
