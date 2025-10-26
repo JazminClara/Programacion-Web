@@ -12,5 +12,5 @@ public interface IAutoService {
 
     public Auto findAuto(int id);
     
-    public void editAuto(int idOriginal, int idNuevo, String marca, String modelo);
+    public void editAuto(int idOriginal, int idNuevo, String marca, String modelo, double precio);
 }

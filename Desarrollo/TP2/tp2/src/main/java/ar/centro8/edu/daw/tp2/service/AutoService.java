@@ -36,12 +36,13 @@ public class AutoService implements IAutoService{
     }
 
     @Override
-    public void editAuto(int idOriginal, int idNuevo, String marca, String modelo) {
+    public void editAuto(int idOriginal, int idNuevo, String marca, String modelo, double precio) {
         Auto auto = this.findAuto(idOriginal);
 
         auto.setId(idNuevo);
         auto.setMarca(marca);
         auto.setModelo(modelo);
+        auto.setPrecio(precio);
 
         this.saveAuto(auto);
     }  

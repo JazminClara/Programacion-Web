@@ -34,7 +34,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "  {\r\n    \"marca\": \"Toyota\",\r\n    \"modelo\": \"Corolla\"\r\n  }\r\n",
+					"raw": "  {\r\n    \"marca\": \"Toyota\",\r\n    \"modelo\": \"Corolla\",\r\n    \"precio\": 67000.30\r\n  }\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -63,7 +63,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "  {\r\n    \"marca\": \"Ford\",\r\n    \"modelo\": \"Focus\"\r\n  }",
+					"raw": "  {\r\n    \"marca\": \"Ford\",\r\n    \"modelo\": \"Focus\",\r\n    \"precio\": 45000.50\r\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -92,7 +92,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "  {\r\n    \"marca\": \"Honda\",\r\n    \"modelo\": \"Civic\"\r\n  }\r\n",
+					"raw": "  {\r\n    \"marca\": \"Honda\",\r\n    \"modelo\": \"Civic\",\r\n    \"precio\": 58000.70\r\n  }\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -121,7 +121,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "  {\r\n    \"marca\": \"Chevrolet\",\r\n    \"modelo\": \"Cruze\"\r\n  }",
+					"raw": "  {\r\n    \"marca\": \"Chevrolet\",\r\n    \"modelo\": \"Cruze\",\r\n    \"precio\": 34000.80\r\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -150,7 +150,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "  {\r\n    \"marca\": \"Volkswagen\",\r\n    \"modelo\": \"Golf\"\r\n  }",
+					"raw": "  {\r\n    \"marca\": \"Volkswagen\",\r\n    \"modelo\": \"Golf\",\r\n    \"precio\": 55000.60\r\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -208,7 +208,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/autos/editar/4?id=4&marca=Chevrolet&modelo=Corsa",
+					"raw": "http://localhost:8080/autos/editar/4?id=4&marca=Chevrolet&modelo=Corsa&precio=100000",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -231,6 +231,10 @@
 						{
 							"key": "modelo",
 							"value": "Corsa"
+						},
+						{
+							"key": "precio",
+							"value": "100000"
 						}
 					]
 				}

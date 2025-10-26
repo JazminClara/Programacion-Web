@@ -45,9 +45,10 @@ public class AutoController {
     public Auto editAuto(@PathVariable int idOriginal,
             @RequestParam(required = false, name = "id") int idNuevo,
             @RequestParam(required = false, name = "marca") String marcaNuevo,
-            @RequestParam(required = false, name = "modelo") String modeloNuevo) {
+            @RequestParam(required = false, name = "modelo") String modeloNuevo,
+            @RequestParam(required = false, name = "precio") double precioNuevo) {
 
-        autoService.editAuto(idOriginal, idNuevo, marcaNuevo, modeloNuevo);
+        autoService.editAuto(idOriginal, idNuevo, marcaNuevo, modeloNuevo, precioNuevo);
         Auto autoNuevo = autoService.findAuto(idNuevo);
         return autoNuevo;
     }
